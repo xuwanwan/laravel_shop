@@ -47,7 +47,7 @@
             </form>
                     <div style="float:right; width: 215px; margin-top: 20px;">
                     
-					<p><a href="checkout.html">Proceed to checkout</a></p>
+					<p><a href="{{URL::route('cart.checkout')}}">Proceed to checkout</a></p>
                     <p><a href="javascript:history.back()">Continue shopping</a></p>
                     	
                     </div>
